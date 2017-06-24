@@ -1,0 +1,454 @@
+/* 
+http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*Browser specifc */
+ /*-webkit-transform: rotate(7.5deg);
+ -moz-transform: rotate(-7.5deg);*/
+
+} 
+
+body {
+
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML5 display-role reset for older browsers END*/
+
+/* nav menu */
+
+nav {
+	width: 100%;
+	height: 96.37px;
+	border-bottom: 1px #000 solid;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	padding-top: 38px;
+	padding-right: 38px;
+	font-size: 25px;
+    
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+nav {
+	text-align: right;
+	font-family: "Cormorant SC", "Libre Baskerville", serif;
+	color: #000;
+
+}
+
+nav a:hover {
+color: #DBDBDB;
+background-color: #fff;    
+
+}
+
+/* nav menu end*/
+
+.wrapper {
+width: 1366px;
+margin: 0 auto;
+
+
+}
+
+.tobottom {
+padding: 40px;	
+margin-left: 300px; 
+margin-top: 20px;
+	
+} 
+
+/*header section start*/
+
+.banner {
+	height:665px; 
+	background-image: url("../img/banner.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+  height: 100%;
+  width: 100%;
+  -webkit-animation: 2s linear 0s infinite alternate move_eye;
+   -moz-animation: 0s linear 0s infinite alternate move_eye;
+
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 20%; }  }
+@-moz-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 0%; }  }
+
+}
+
+ #logo{
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 80px;
+	border: 0;
+	margin: 0px; 
+	padding: 0px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+
+}
+
+header h2 {
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 160px;
+padding-left: 73px;
+font-size: 40px;
+color: #fff;
+
+}
+
+header p {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+padding-top: 15px;
+width: 550px;
+padding-left: 73px;
+font-size: 18px;
+line-height: 180%;
+color: #fff;
+
+}
+
+/*header section end*/
+
+/*about us*/
+
+.about_us {
+	width: 668;
+	padding-top: 150px;
+	height: 600px;
+
+}
+
+.about img {
+	width: 560px;
+	display: inline-block;
+	position: absolute;
+	margin-top: -230px;
+	margin-left: 40px;
+
+
+}
+.about h3{
+text-align: right;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+text-decoration: none;
+font-size: 40px;
+font-weight: bold;
+padding: 20px;
+padding-bottom: 30px;
+margin-right: 300px;
+margin-top: 80px;
+/*
+-webkit-color: blue; 
+-moz-color: red;*/ 
+
+}
+
+
+.aboutustext {
+	text-align: left;
+	width: 450px;
+	font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	float: right;
+	font-size: 18px;
+	line-height: 30px;
+	display: inline-block;
+	width: 600px;
+	margin-right: 90px;
+
+
+}
+.button {
+	margin-right: 232px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.button a {
+	font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 5px;
+	border: 3px black solid;
+	border-radius: 7px;
+	text-decoration: none;
+	padding: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+	display: inline-block;
+/*-webkit-text-fill-color: blue;*/
+
+}
+
+.button a:hover {
+color: #DBDBDB;
+background-color: #fff; 
+border: 3px #DBDBDB solid;
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer {
+height: 82.67px;
+background-color: #000;
+color: #B3B3B3;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-top: 40px;
+
+}
+
+footer p {
+padding-top: 35px;
+text-align: center;
+font-size: 18px;
+
+}
+
+/*.contact_us {
+
+/*-moz-appearence: none;
+background-color: #D3D3D3;}*/
+
+ 
+.contact_info h2 {
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 160px;
+padding-left: 130px;
+font-size: 40px;
+/*-webkit-text-fill-color: blue;*/
+
+
+}
+
+.contact_info  p {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+padding-top: 15px;
+padding-left: 130px;
+font-size: 20px;
+line-height: 180%;
+/*-webkit-text-fill-color: blue;*/
+
+
+}
+
+form {
+text-align: center;
+margin-top: -250px;
+/*-webkit-text-fill-color: blue;*/
+margin-bottom: -50px;
+}
+
+fieldset input {
+text-decoration-style: none
+border-style: none;
+width: 350px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 16px;
+/*-webkit-text-fill-color: blue;*/
+}
+
+input {
+	border: 1.2px #000 solid;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 10px;
+	width: 350px;
+	margin-bottom: 15px;
+
+}
+
+textarea {
+	border-radius: 4px;
+	width: 350px;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+
+}
+
+.submit_button input {
+background-color: #000;
+color: #fff;
+font-size: 20px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-bottom: 130px;
+
+}
+.submit_button input:hover {
+color: #000;
+background-color: #fff; 
+border: 3px #DBDBDB solid;
+
+}
+
+.open_hours {
+float: right;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-top: -470px;
+line-height: 38px;
+padding-right: 100px;
+font-size: 20px;
+
+}
+
+.open_hours strong {
+font-weight: bold;
+
+}
+.footer_contact{
+margin-top: -60px;
+
+}
+
+/*end of contact_use*/
+
+/*browser specific*/
+
+.about_us {
+ background-color: yellow;
+
+}
+
+@supports (-webkit-appearance:none) {
+background-color: yellow;
+
+}
+
+
+
+_:-moz-tree-row(hover), .about_us {
+background-color: blue;
+color:white;
+
+
+}
+_:-moz-tree-row(hover), .about_us img {
+	border: 3px white solid;
+	border-radius: 100%;
+	padding:20px;
+	width: 500px;
+	margin-top: -280px;
+}
+
+_:-moz-tree-row(hover), .button a{
+color:white;
+border: 3px white solid;
+}
+_:-moz-tree-row(hover), header p {
+color: blue;
+}
+
+_:-moz-tree-row(hover), header h2 {
+color: blue;
+font-size: 50px;
+
+}
+
+_:-moz-tree-row(hover), header p {
+color: blue;
+font-size: 25px;
+width: 750px;
+}
+
+
+.aboutustext {
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(0deg);
+}
+
+_:-moz-tree-row(hover), .contact_us {
+background-color: pink;
+}
+
+_:-moz-tree-row(hover), .about h3 {
+font-size: 65px;
+
+}
+
+
+_:-moz-tree-row(hover), .about h3 {
+font-size: 80px;
+margin-right: 200px
+
+}
+
+_:-moz-tree-row(hover), footer {
+background-color: blue;
+
+}
+
+
+
+
+
+
+
+
